@@ -146,7 +146,6 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Bucket Name:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label4.Visible = false;
             // 
             // btnBrowse
             // 
@@ -186,7 +185,6 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Bucket Region:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label5.Visible = false;
             // 
             // btnBack
             // 

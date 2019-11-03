@@ -65,7 +65,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AuthenticationHelper.cs" />
     <Compile Include="AWSS3Helper.cs" />
     <Compile Include="ConfigurationHelper.cs" />
     <Compile Include="FileMonitor.cs" />
