@@ -14,12 +14,10 @@ namespace TestUtils
         {
             return new Configuration()
             {
-                Username = "asdf",
                 BucketName = "adsf",
                 BucketRegion = "eu-west-1",
                 CloudStorageFolderPath = @"C:\\CloudStorageFolder",
                 CloudStorageRemoteFolderName = "asdf",
-                Password = "asdf"
             };
         }
 
