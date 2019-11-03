@@ -19,7 +19,7 @@ This should be fairly straight forward for anyone with VisualStudio 2019 install
 
 ### Step 2 - Create the bucket in AWS
 
-Log into your AWS account (oo create one if you don't have one already) and navigate to the S3 service.
+Log into your AWS account (or create one if you don't have one already) and navigate to the S3 service.
 Once in S3 create a new bucket:
 
 ![Creating a bucket](https://github.com/Hannoob/windows10-aws-cloud-storage-client/blob/master/images/S3.bmp)
@@ -79,5 +79,7 @@ I would also not recommend using this for anything important, because I am not s
 All in all this was a fun little project to work on, and a super useful one at that.
 One of the things that I struggled with a lot was actually getting my user access to the bucket, I might amend this quick setup tutorial to include a detailed description of how to create a user with the correct access and permissions.
 I hope that you enjoy using your own cloud storage, as much as I enjoyed writing it.
+
+Please let me know what you guys think!
 
 P.S. There is still a LOT of fixes required to make this thing robust, and any contributions would be greatly appreciated!
