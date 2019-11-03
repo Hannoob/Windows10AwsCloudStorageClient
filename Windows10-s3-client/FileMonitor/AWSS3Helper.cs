@@ -59,7 +59,6 @@ namespace FileMonitor
             //_configuration = configuration;
             _bucketName = configuration.BucketName;
             _bucketRegion = configuration.ParsedBucketRegion;
-            var _authenticationHelper = new AuthenticationHelper(configuration);
 
             var creds = new BasicAWSCredentials(configuration.AccessKeyId, configuration.SecretAccessKey);
 

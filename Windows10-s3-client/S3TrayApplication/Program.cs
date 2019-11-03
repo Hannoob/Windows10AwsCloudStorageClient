@@ -44,7 +44,6 @@ namespace S3TrayApplication
                 //<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
                 Icon = new System.Drawing.Icon(@".\icons\cloud.ico"),
                 ContextMenu = new ContextMenu(new MenuItem[] {
-                    new MenuItem("Login", Login),
                     new MenuItem("Open folder",OpenCloudFolder),
                     new MenuItem("Refresh", Refresh),
                     new MenuItem("Settings",_formManager.ShowSettingsForm),
@@ -58,14 +57,6 @@ namespace S3TrayApplication
             //Initialize fileWatcher
             _fileMonitor.StartMonitoring();
 
-
-        }
-
-        void Login(object sender, EventArgs e)
-        {
-            var LoginURL = @"https://boxzy-users.auth.eu-west-1.amazoncognito.com/login?response_type=token&client_id=6ssvqih9ptqr0acp2tn3bjocgt&redirect_uri=https://localhost:3000/home";
-
-            System.Diagnostics.Process.Start(LoginURL);
 
         }
 
